@@ -63,8 +63,8 @@ footer {
   text-decoration: none;
   text-transform: capitalize;
 }
-
-.contact-link,
+.work-link,
+.app,
 .contact-info-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
