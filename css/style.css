@@ -5,11 +5,6 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-body {
-  margin: 60px auto;
-  max-width: 800px;
-}
-
 h1,
 h2,
 h3 {
@@ -92,6 +87,11 @@ footer .btn-primary:hover {
   border-color: var(--primary-color);
   box-shadow: var(--box-shadow);
 }
+.weatherRow,
+.skaterRow,
+.portoRow {
+  box-shadow: var(--box-shadow);
+}
 .coderName {
   padding: 20px 80px;
   border-radius: 10px;
@@ -172,7 +172,7 @@ footer .btn-primary:hover {
     font-size: 40px;
   }
   h4 {
-    font-size: 26px;
+    font-size: 38px;
   }
 
   .project-description {
@@ -180,23 +180,3 @@ footer .btn-primary:hover {
     text-align: center;
   }
 }
-
-/*
-@media (max-width: 576px) {
-  .yogurt,
-  .yoga,
-  .weather {
-    display: none;
-  }
-  body {
-    max-width: 300px;
-  }
-  h1,
-  #contact {
-    font-size: 36px;
-  }
-  .email-link {
-    font-size: 20px;
-  }
-}
-*/
