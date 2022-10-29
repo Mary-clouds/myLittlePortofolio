@@ -22,12 +22,12 @@ h1 {
   font-weight: 3px;
 }
 
-h3 {
+h2 {
   font-size: 28px;
   padding-top: 40px;
 }
 
-h2 {
+h3 {
   font-size: 24px;
   opacity: 0.7;
 }
@@ -37,7 +37,7 @@ h4 {
 }
 
 p {
-  padding: 20px;
+  padding: 6px;
   font-size: 18px;
   line-height: 1.5;
 }
@@ -46,6 +46,20 @@ a {
 }
 footer {
   padding-top: 90px;
+}
+
+.btn-branding-outline {
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+
+  padding: 15px 30px;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+.btn-branding-outline:hover {
+  color: var(--tertiary-color);
+  box-shadow: var(--box-shadow);
 }
 .hero {
   margin-top: 99px;
@@ -112,6 +126,17 @@ footer {
 .padding {
   padding-top: 50px;
 }
+@media (max-width: 900px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+}
+/*
 @media (max-width: 576px) {
   .yogurt,
   .yoga,
@@ -129,3 +154,4 @@ footer {
     font-size: 20px;
   }
 }
+*/
