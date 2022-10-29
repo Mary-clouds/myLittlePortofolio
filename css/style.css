@@ -88,7 +88,6 @@ footer {
   padding-top: 80px;
   margin-top: 30px;
 }
-
 .about-paragraphs {
   display: flex;
   margin: 30px 0;
@@ -113,19 +112,12 @@ footer {
   position: fixed;
 }
 
-.row {
-  display: flex;
-  margin-top: 40px;
-  max-width: 900;
-}
 .title {
   margin: 0;
   padding: 0;
   text-align: left;
 }
-.padding {
-  padding-top: 50px;
-}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 40px;
@@ -136,6 +128,7 @@ footer {
     text-align: center;
   }
 }
+
 /*
 @media (max-width: 576px) {
   .yogurt,
