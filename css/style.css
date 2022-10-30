@@ -52,13 +52,13 @@ footer .contact-box p {
   margin: 0;
 }
 footer .email-link {
-  text-decoration: none;
   color: var(--primary-color);
   font-size: 24px;
   text-align: center;
 }
 footer .email-link:hover {
   color: var(--tertiary-color);
+  text-decoration: underline;
 }
 footer .social-links a {
   margin: 0 20px;
@@ -87,10 +87,23 @@ footer .btn-primary:hover {
   border-color: var(--primary-color);
   box-shadow: var(--box-shadow);
 }
+#opensource {
+  color: var(--primary-color);
+  font-size: 15px;
+}
+#opensource:hover {
+  color: var(--tertiary-color);
+  text-decoration: underline;
+}
 .weatherRow,
 .skaterRow,
-.portoRow {
+.portoRow,
+.croissantRow {
   box-shadow: var(--box-shadow);
+  transition: all 100ms ease-in-out;
+}
+.row:hover {
+  box-shadow: 0 20px 30px 20px rgba(0, 0, 0, 0.3);
 }
 .coderName {
   padding: 20px 80px;
@@ -123,7 +136,6 @@ footer .btn-primary:hover {
   margin: 20px;
   border-radius: 4px;
   padding: 20px 15px;
-  text-decoration: none;
   text-transform: capitalize;
 }
 .work-link,
@@ -146,17 +158,6 @@ footer .btn-primary:hover {
   margin: 10px;
 }
 
-.email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
-  text-decoration: none;
-}
-
-.email-link:hover {
-  text-decoration: underline;
-}
 .navbar {
   position: fixed;
 }
