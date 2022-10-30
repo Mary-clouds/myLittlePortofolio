@@ -105,10 +105,13 @@ footer .btn-primary:hover {
   padding-top: 80px;
 }
 .skills {
-  background-color: var(--primary-color);
-  color: white;
-  background-size: 10em;
+  background-color: var(--secondary-color);
+  box-shadow: var(--box-shadow);
 }
+.skills:hover {
+  box-shadow: 0 10px 20px 10px var(--tertiary-color);
+}
+
 .weatherRow,
 .skaterRow,
 .portoRow,
