@@ -39,6 +39,9 @@ p {
 a {
   text-decoration: none;
 }
+ul {
+  list-style: none;
+}
 footer {
   padding-top: 90px;
   margin: 60px 0;
@@ -95,6 +98,17 @@ footer .btn-primary:hover {
   color: var(--tertiary-color);
   text-decoration: underline;
 }
+#appRow:hover {
+  box-shadow: 0 20px 30px 20px rgba(0, 0, 0, 0.3);
+}
+#about-title {
+  padding-top: 80px;
+}
+.skills {
+  background-color: var(--primary-color);
+  color: white;
+  background-size: 10em;
+}
 .weatherRow,
 .skaterRow,
 .portoRow,
@@ -102,9 +116,7 @@ footer .btn-primary:hover {
   box-shadow: var(--box-shadow);
   transition: all 100ms ease-in-out;
 }
-#appRow:hover {
-  box-shadow: 0 20px 30px 20px rgba(0, 0, 0, 0.3);
-}
+
 .coderName {
   padding: 20px 80px;
   border-radius: 10px;
@@ -153,15 +165,12 @@ footer .btn-primary:hover {
   background-color: var(--primary-color);
   border-color: var(--primary-color);
   box-shadow: var(--box-shadow);
-  margin: 20px;
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 30px 15px;
   color: white;
   text-transform: capitalize;
 }
-#about-title {
-  padding-top: 80px;
-}
+
 .about-paragraphs {
   display: flex;
   margin: 30px 0;
