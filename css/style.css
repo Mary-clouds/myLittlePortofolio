@@ -111,7 +111,7 @@ footer .btn-primary:hover {
   box-shadow: var(--box-shadow);
 }
 .hero {
-  margin-top: 99px;
+  margin: 99px 80px;
 }
 .navigation-links {
   display: flex;
@@ -168,6 +168,10 @@ footer .btn-primary:hover {
 }
 
 @media (max-width: 900px) {
+  body {
+    margin: 60px auto;
+    max-width: 800px;
+  }
   h1 {
     font-size: 40px;
   }
